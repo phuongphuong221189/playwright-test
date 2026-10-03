@@ -1,0 +1,38 @@
+# ── Dependencies ────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Playwright artifacts ─────────────────────────────────────────────────────
+/test-results/
+/playwright-report/
+/playwright/.cache/
+
+# ── Allure ───────────────────────────────────────────────────────────────────
+/allure-results/
+/allure-report/
+
+# ── TypeScript build output ──────────────────────────────────────────────────
+/dist/
+/build/
+*.js.map
+
+# ── Environment & secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE & editor ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
